@@ -17,6 +17,7 @@ body {
 .title {
     font-size: 40px;
     color: #ffffff;
+    font-family: 'Courier New';
 }
 
 #bySMNDVC {
@@ -28,12 +29,13 @@ body {
 }
 
 .box {
-    border-bottom: 2px solid white;
+    border-bottom: 4px solid white;
     width:  75px;
     height: 75px;
     text-align: center;
     color: white;
     font-size: 75px;
+    font-family: 'Courier New', Courier, monospace;
     display: inline-block; /* Display boxes inline */
     margin: 5px; /* Adjust margin between boxes */
     vertical-align: top;
@@ -41,8 +43,39 @@ body {
 
 }
 
-
-
 #underscores {
     text-align: center;
+}
+
+#wrongLetters {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New';
+    margin-top: 10px;
+    @media (max-width: 991.98px)  {
+        margin-top: 20px;
+    }
+}
+
+#keyboardWorkaround {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    top: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: transparent;
+    caret-color: transparent;
+    pointer-events: auto;
+    cursor: default;
+}
+
+.huge-text {
+    font-size: 72px; /* Adjust the size as needed */
+    text-align: center;
+    color: green; /* Adjust the color as needed */
+    margin-top: 20px; /* Adjust the margin as needed */
 }
