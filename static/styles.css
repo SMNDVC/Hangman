@@ -1,0 +1,48 @@
+body {
+    background-color: #222222;
+}
+
+.span {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+}
+
+#nav-padding {
+    
+    margin-top: 76px;
+}
+
+.title {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+#bySMNDVC {
+    color: #6c757d;
+    font-size: medium;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.box {
+    border-bottom: 2px solid white;
+    width:  75px;
+    height: 75px;
+    text-align: center;
+    color: white;
+    font-size: 75px;
+    display: inline-block; /* Display boxes inline */
+    margin: 5px; /* Adjust margin between boxes */
+    vertical-align: top;
+    line-height: 75px;
+
+}
+
+
+
+#underscores {
+    text-align: center;
+}
